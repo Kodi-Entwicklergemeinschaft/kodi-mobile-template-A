@@ -1,0 +1,11 @@
+
+# FVM Version Cache
+.fvm/
+.fvmrc
+
+# Added by code-review-graph
+.code-review-graph/
+/.idea/libraries/Dart_Packages.xml
+/.idea/kodi.app.iml
+/.idea/modules.xml
+/.idea/vcs.xml

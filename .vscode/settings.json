@@ -1,0 +1,23 @@
+{
+  "dart.flutterSdkPath": ".fvm/versions/3.32.0",
+  "dart.sdkPath": "/home/solitude/.puro/envs/just_stable/flutter/bin/cache/dart-sdk",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "dart.lineLength": 100,
+  "dart.analysisExcludedFolders": [
+    ".dart_tool"
+  ],
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": false,
+    "**/.gitignore": false,
+    "**/.vscode": false,
+    "**/node_modules": true,
+    "**/build": true,
+    "**/.dart_tool": true,
+    "**/.flutter-plugins": true,
+    "**/.packages": true
+  }
+}

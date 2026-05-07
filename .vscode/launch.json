@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "kodi - staging (debug)",
+            "cwd": "projects/kodi",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "args": ["--flavor", "staging"]
+        },
+        {
+            "name": "kodi - staging (profile)",
+            "cwd": "projects/kodi",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "flutterMode": "profile",
+            "args": ["--flavor", "staging"]
+        },
+        {
+            "name": "kodi - staging (release)",
+            "cwd": "projects/kodi",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_staging.dart",
+            "flutterMode": "release",
+            "args": ["--flavor", "staging"]
+        },
+        {
+            "name": "kodi - prod (debug)",
+            "cwd": "projects/kodi",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "args": ["--flavor", "prod"]
+        },
+        {
+            "name": "kodi - prod (profile)",
+            "cwd": "projects/kodi",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "flutterMode": "profile",
+            "args": ["--flavor", "prod"]
+        },
+        {
+            "name": "kodi - prod (release)",
+            "cwd": "projects/kodi",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main_prod.dart",
+            "flutterMode": "release",
+            "args": ["--flavor", "prod"]
+        }
+    ]
+}

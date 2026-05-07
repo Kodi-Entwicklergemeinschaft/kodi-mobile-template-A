@@ -1,0 +1,25 @@
+name: locale
+description: "A new Flutter project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_dependencies:
+    path: ../shared_dependencies
+  local_storage:
+    path: ../local_storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:

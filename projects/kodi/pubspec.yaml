@@ -1,0 +1,86 @@
+name: kodi
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.4+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.2.0
+  firebase_messaging: ^16.0.3
+  url_launcher: ^6.3.2
+  app_settings: ^5.1.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  theme:
+    path: ../../packages/theme
+  shared_dependencies:
+    path: ../../packages/shared_dependencies
+  network:
+    path: ../../packages/network
+  common_components:
+    path: ../../packages/common_components
+  scaling_dep:
+    path: ../../packages/scaling_dep
+  locale:
+    path: ../../packages/locale
+  local_storage:
+    path: ../../packages/local_storage
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/kodi_logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#00223F"
+  adaptive_icon_foreground: "assets/images/kodi_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/verwaltung/
+    - assets/icons/
+    - assets/fonts/
+    - lib/feat/auth/select_user_type/presentation/assets/
+    - lib/feat/user/account/presentation/assets/
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway_Regular.ttf
+        - asset: assets/fonts/Raleway_Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Raleway_BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/raleway_extraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Raleway_ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Raleway_Italic.ttf
+          style: italic
+        - asset: assets/fonts/Raleway_Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Raleway_ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Raleway_ExtraLight.ttf
+          weight: 300
+        - asset: assets/fonts/Raleway_ExtraLightItalic.ttf
+          weight: 300
+          style: italic
+
