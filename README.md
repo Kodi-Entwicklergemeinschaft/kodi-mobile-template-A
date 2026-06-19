@@ -2,6 +2,8 @@
 
 A Flutter mono-repository powering **Kodi** — a city services and citizen app for the city in Germany. The repository is structured to support scalable multi-project development through shared local packages.
 
+> _Template A reference application — open-sourced from **KODI-Kommunen-Digital**. Licensed under the [EUPL-1.2](LICENSE)._
+
 ---
 
 ## Table of Contents
@@ -261,4 +263,4 @@ flutter build ipa --flavor prod -t lib/main_prod.dart --release
 ## License
 
 This project is licensed under the **European Union Public Licence (EUPL) v1.2**.  
-See the [EUPL licence text](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12) for full details.
+See the [LICENSE](LICENSE) file in this repository, or the [EUPL licence text](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12) for full details.
